@@ -3,7 +3,7 @@ namespace Domotica
 {
     class Casa
     {
-        private static SerialPort Arduino = new SerialPort("COM5", 9600);
+        private static SerialPort Arduino = new SerialPort("COM9", 9600);
 
         public void EnviarCaracter(string dato)
         {
