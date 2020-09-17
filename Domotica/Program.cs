@@ -57,8 +57,8 @@ namespace Domotica
                 else if (opciones == 4)
 
                 {
-                    app.EnviarCaracter("a");
-                    Console.WriteLine(" ingrese: 'a' para abrir la cortina 1");
+                    app.EnviarCaracter("z");
+                    Console.WriteLine(" ingrese: 'z' para abrir la cortina 1");
 
                     Console.WriteLine(" ingrese: 'b' para cerrar la cortina 1");
                     app.EnviarCaracter("b");
